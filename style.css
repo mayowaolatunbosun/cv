@@ -1,0 +1,230 @@
+body{
+    font-family: 'open-sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    margin: auto;
+}
+
+/*common classes*/
+.primary-text{
+    color: gold;
+}
+
+.primary-background{
+    background: gold;
+}
+
+/*HEADER*/
+#main-header{
+    border-bottom: 1px solid goldenrod;
+}
+
+/*nav bar*/
+#navbar{
+    text-transform: uppercase;
+}
+
+#navbar li{
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+#navbar li .current a, #navbar a:hover{
+    color: gold;
+    border-bottom: 3px solid gold;
+    padding-bottom: 3px;
+}
+
+/*showcase*/
+#showcase{
+    background: url('../img/pic.jpg') no-repeat center center;
+    border-bottom: 1px solid gold;
+    margin-bottom: 30px;
+}
+
+#showcase .row{
+    height: 600px;
+}
+
+
+#showcase h1{
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+
+#showcase p{
+    color: gold;
+    margin: 0;
+}
+
+#showcase .showcase-content{
+    background: #333;
+    color: #fff;
+    border-radius: 90px;
+    padding: 40px;
+    opacity: 0.9;
+}
+
+
+/*features*/
+#features h2{
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#features .fa{
+    font-size: 60px;
+    color: gold;
+}
+
+
+/*info*/
+#info{
+    background-color: black;
+    color: gold;
+    height: 85%;
+}
+
+#info img{
+    width: 450px;
+    margin-top: 50px;
+}
+
+
+#info h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+#info ul{
+    list-style: none;
+    padding: 0;
+}
+
+#info li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    line-height: 2em;
+    font-size: 25px;
+}
+
+
+/*Company*/
+#company{
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#company h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#company ul{
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+
+#company input [type="text"]{
+    padding: 7px;
+}
+
+#company button{
+    background: #222;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+}
+
+/*Footer*/
+#main-footer{
+    background: black;
+    color: gold;
+}
+
+/*Page*/
+#page{
+    margin-bottom: 40px;
+}
+
+/*Services*/
+.services ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.services ul li:nth-child(odd){
+    background: #333;
+    color: #fff;
+}
+
+.services ul li:nth-child(even){
+    background: black;
+    color: gold;
+}
+
+/*Contact*/
+.contact form{
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.contact form input[type="text"]{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.contact form textarea{
+    width: 50%;
+    height: 100px;
+}
+
+.contact form button{
+    width: 50%;
+    padding: 10px 0;
+    border: 0;
+    background: #222;
+    color: #fff;
+}
+
+.contact form label{
+    text-transform: uppercase;
+}
+
+/*media Quaries*/
+@media(max-width:800px){
+    #showcase h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:500px){
+    #showcase .showcase-content{
+        padding: 40px 10px;
+    }
+}
